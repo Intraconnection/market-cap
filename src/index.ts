@@ -99,6 +99,7 @@ import rsergFetcher from "./tokens/rserg";
 import shardsFetcher from "./tokens/shards";
 import sharkyFetcher from "./tokens/sharky";
 import shenFetcher from "./tokens/shen";
+import smokeFetcher from "./tokens/smoke";
 import snekFetcher from "./tokens/snek";
 import snepeFetcher from "./tokens/snepe";
 import snowFetcher from "./tokens/snow";
@@ -138,6 +139,7 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e993444794e5458: ntxFetcher,
   "8a1cfae21368b8bebbbed9800fec304e95cce39a2a57dc35e2e3ebaa4d494c4b":
     milkFetcher,
+  "dd00d877798443a2de57e5bc667784168616aa8244b558743e448784534d4f4b45": smokeFetcher,
   da8c30857834c6ae7203935b89278c532b3995245295456f993e1d244c51: liqwidFetcher,
   "6ac8ef33b510ec004fe11585f7c5a9f0c07f0c23428ab4f29c1d7d104d454c44":
     meldFetcher,
